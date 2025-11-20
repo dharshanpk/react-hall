@@ -1,0 +1,134 @@
+{
+  "halls": [
+    {
+      "id": "1",
+      "name": "Grand Palace Marriage Hall",
+      "type": "Marriage Hall",
+      "image":"src/assets/mg1.png",
+      "capacity": 1000,
+      "location": "Chennai",
+      "pricePerDay": 150000,
+      "facilities": [
+        "AC",
+        "Parking",
+        "Catering",
+        "Stage",
+        "Decorations"
+      ],
+      "contactNumber": "+91 9876543210",
+      "rating": 4.6,
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Golden Lotus Party Hall",
+      "type": "Party Hall",
+      "image":"src/assets/ph1.png",
+      "capacity": 200,
+      "location": "T Nagar, Chennai",
+      "pricePerDay": 35000,
+      "facilities": [
+        "AC",
+        "Parking",
+        "Sound System",
+        "Lighting"
+      ],
+      "contactNumber": "+91 9123456789",
+      "rating": 4.2,
+      "available": true
+    },
+    {
+      "id": "3",
+      "name": "Royal Banquet Hall",
+      "type": "Marriage Hall",
+      "image":"src/assets/mg2.png",
+      "capacity": 800,
+      "location": "Chennai",
+      "pricePerDay": 120000,
+      "facilities": [
+        "AC",
+        "Parking",
+        "Catering",
+        "Rooms",
+        "Stage"
+      ],
+      "contactNumber": "+91 9988776655",
+      "rating": 4.4,
+      "available": false
+    },
+    {
+      "id": "4",
+      "name": "Elite Party Venue",
+      "type": "Party Hall",
+      "image":"src/assets/mg1.png",
+      "capacity": 150,
+      "location": "Adyar, Chennai",
+      "pricePerDay": 25000,
+      "facilities": [
+        "AC",
+        "Sound System",
+        "DJ Floor"
+      ],
+      "contactNumber": "+91 9090909090",
+      "rating": 4,
+      "available": true
+    },
+    {
+      "id": "5",
+      "name": "Pearl Convention Center",
+      "type": "Marriage Hall",
+      "capacity": 1200,
+      "location": "OMR, Chennai",
+      "pricePerDay": 200000,
+      "facilities": [
+        "AC",
+        "Parking",
+        "Catering",
+        "Rooms",
+        "Stage",
+        "Decorations"
+      ],
+      "contactNumber": "+91 9000090000",
+      "rating": 4.8,
+      "available": true
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "hashedpassword123",
+      "phone": "+91 9876543210",
+      "role": "customer",
+      "createdAt": "2025-08-24T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "username": "admin_user",
+      "email": "admin@example.com",
+      "password": "securehash456",
+      "phone": "+91 9123456789",
+      "role": "admin",
+      "createdAt": "2025-08-24T12:05:00Z"
+    },
+    {
+      "id": "4710",
+      "username": "dune",
+      "email": "dune@gmail.com",
+      "password": "sam",
+      "phone": "9790432156",
+      "role": "customer",
+      "createdAt": "2025-08-24T14:53:31.609Z"
+    },
+    {
+      "id": "74f0",
+      "username": "sai",
+      "email": "sai@gmail.com",
+      "password": "raj",
+      "phone": "8398765432",
+      "role": "customer",
+      "createdAt": "2025-08-28T05:49:11.963Z"
+    }
+  ]
+}
