@@ -18,7 +18,7 @@ function Log() {
 
     try{
       const response= await fetch(
-        'https://react-hall-1.onrender.com',{
+        'https://react-hall-1.onrender.com/login',{
           method:"POST",
           headers:{
             "Content-Type":"application/json",
