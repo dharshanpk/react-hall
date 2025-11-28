@@ -26,7 +26,7 @@ function HallUpload() {
 
     try {
       const res = await axios.post(
-  "http://localhost:3000/api/halls/posthalldetails",
+  "https://react-hall-1.onrender.com",
   data,
   {
     headers: { "Content-Type": "multipart/form-data" },
