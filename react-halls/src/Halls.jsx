@@ -14,7 +14,7 @@ function Halls() {
     useEffect(() => {
         const fetchedHalls=async() => {
             try{
-            const response=await fetch('https://react-hall-1.onrender.com');
+            const response=await fetch('https://react-hall-1.onrender.com/getHallDetails');
             if(!response.ok) throw new Error("Failed to fetch Halls");
             const data=await response.json();
             console.log("DATA FROM BACKEND:", data.halls);
