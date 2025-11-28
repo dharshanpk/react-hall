@@ -21,7 +21,7 @@ function Signup() {
    
   try{
     console.log({username,email,role});
-    const res=await fetch(https://react-hall-1.onrender.com",{
+    const res=await fetch("https://react-hall-1.onrender.com",{
       method:'POST',
       headers: {'Content-Type':'application/json'},
       body: JSON.stringify({username,email,phone,role,password,confirmPassword})
